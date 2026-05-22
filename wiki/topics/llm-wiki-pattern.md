@@ -22,9 +22,18 @@ A knowledge management pattern where an LLM acts as a compiler: raw documents (a
 
 ## Connections
 
-- [[rag-retrieval-augmented-generation]] — LLM Wiki is an alternative to RAG for personal/research knowledge bases
-- [[obsidian]] — recommended tool for browsing and visualizing the compiled wiki
-- [[claude-code]] — recommended agent runtime for running ingest/query/lint operations
+*(No pages in this wiki relate to the LLM Wiki pattern itself — see Raw Notes for external references.)*
+
+## Raw Notes
+
+Three-layer architecture: raw sources (immutable) → wiki (LLM-owned markdown) → schema (agent instructions).
+Supporting files: `index.md` (catalog) and `log.md` (append-only activity trail).
+Community has produced Obsidian plugins and a v2 extension (agentmemory architecture).
+
+External references (different subject domains — not linked with `[[]]` syntax):
+- RAG (Retrieval-Augmented Generation): alternative retrieval approach this pattern replaces
+- [Obsidian](https://obsidian.md): recommended tool for browsing the compiled wiki
+- [Claude Code](https://claude.ai/code): recommended agent runtime for /ingest, /query, /lint
 
 ## Open Questions
 
