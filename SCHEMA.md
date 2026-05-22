@@ -1,4 +1,10 @@
-# ContextSpace Schema
+# FCF_DCF_wiki Schema
+
+This is the knowledge base wiki for the **FCF/DCF Financial Analysis project** located at `financial_to_exel_1/`.
+
+**Project scope**: Python toolkit for FCF, DCF, DDM, and P/B valuation analysis with a Streamlit web interface.
+**Host project docs**: `../docs/` (source documents are copied to `raw/` before each ingest)
+**Host project instructions**: `../CLAUDE.md` — contains the wiki location, workflow, and topic index
 
 This file governs how the LLM agent maintains this wiki. Read it before any ingest, query, or lint operation.
 
